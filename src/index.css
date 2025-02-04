@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Orbitron", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.glitch {
+  animation: glitchIntro 1s infinite;
+}
+.glitchSlower {
+  animation: glitchIntro 6s infinite;
+}
+@keyframes glitchIntro {
+  0% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+  13% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+  14% {
+    text-shadow: -0.4em -0.4em 0 #00ccff, 0.4em 0.4em 0 #e500a6;
+  }
+  15% {
+    text-shadow: 0.03em 0.02em 0 #00ccff, -0.03em -0.02em 0 #e500a6;
+  }
+  16% {
+    text-shadow: -0.5em -0.5em 0 #00ccff, 0.5em 0.5em 0 #e500a6;
+  }
+  17% {
+    text-shadow: -0.09em -0.04em 0 #00ccff, 0.09em 0.04em 0 #e500a6;
+  }
+  18% {
+    text-shadow: -0.03em -0.02em 0 #00ccff, 0.03em 0.02em 0 #e500a6;
+  }
+  19% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+
+  78% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+  79% {
+    text-shadow: -0.03em -0.02em 0 #00ccff, 0.03em 0.02em 0 #e500a6;
+  }
+  80% {
+    text-shadow: 0.03em 0.02em 0 #00ccff, -0.03em -0.02em 0 #e500a6;
+  }
+  81% {
+    text-shadow: -0.04em -0.04em 0 #00ccff, 0.04em 0.04em 0 #e500a6;
+  }
+  82% {
+    text-shadow: -1.09em -0.04em 0 #00ccff, 1.09em 0.04em 0 #e500a6;
+  }
+  83% {
+    text-shadow: -0.03em -0.02em 0 #00ccff, 0.03em 0.02em 0 #e500a6;
+  }
+  84% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+
+  100% {
+    text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
+  }
+}
+.bgVid {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+}
+.bgVid::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #1b1b1b;
+  opacity: 0.8;
+}
