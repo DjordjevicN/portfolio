@@ -1,5 +1,8 @@
 import organo from "../../assets/organo.png";
 import edge from "../../assets/edge.svg";
+import euro from "../../assets/euro.svg";
+
+import { onHover } from "./SoftmetrixAnimation";
 
 const SoftMetrix = () => {
   return (
@@ -15,12 +18,14 @@ const SoftMetrix = () => {
             and user experience.
           </p>
         </div>
-        <div>
+        <div onClick={onHover}>
+          <div>
+            <img className="euroAnimation" src={euro} alt="" />
+          </div>
           <div className="relative">
             <img
               className="w-full max-w-[600px] md:max-w-[600px]"
               src={organo}
-              alt=""
             />
           </div>
         </div>
