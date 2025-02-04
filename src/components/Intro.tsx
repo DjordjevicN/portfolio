@@ -4,7 +4,7 @@ const introText = [
   { id: 0, text: "", glitch: false, duration: 100 },
   { id: 1, text: "HI!", glitch: false, duration: 2000 },
   { id: 2, text: "", glitch: false, duration: 300 },
-  { id: 3, text: "I'm Nikola Đorđević", glitch: true, duration: 2000 },
+  { id: 3, text: "I'm Nikola Djordjevic", glitch: true, duration: 2000 },
   { id: 4, text: "", glitch: false, duration: 300 },
   { id: 5, text: "I'm a Frontend Developer", glitch: false, duration: 2000 },
   { id: 6, text: "", glitch: false, duration: 300 },
