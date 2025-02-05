@@ -12,7 +12,7 @@ import usdt from "../../assets/tokens/usdt.svg";
 
 const Streamflow = () => {
   const projectImageStyle = "w-full max-w-[600px] md:max-w-[600px]";
-  const elementStyle = "w-8 h-8 md:w-12 md:h-12 absolute";
+  const elementStyle = "w-8 h-8 md:w-12 md:h-12 absolute opacity-0";
 
   return (
     <div className="relative bg-[#FAF002] w-full min-h-screen flex justify-center items-center">

@@ -20,7 +20,7 @@ const SoftMetrix = () => {
         </div>
         <div onClick={onHover}>
           <div>
-            <img className="euroAnimation" src={euro} alt="" />
+            <img className="euroAnimation opacity-0" src={euro} alt="" />
           </div>
           <div className="relative">
             <img

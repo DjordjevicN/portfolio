@@ -1,6 +1,10 @@
 import landline from "../../assets/landline.png";
 import edgeShort from "../../assets/edgeShort.svg";
 import edgeBlack from "../../assets/edgeBlack.svg";
+import jeep from "../../assets/cars/jeep.png";
+import kombi from "../../assets/cars/kombi.png";
+import autobus from "../../assets/cars/autobus.png";
+import { onHover } from "./landlineAnimation";
 
 const Landline = () => {
   const projectImageStyle = "w-full max-w-[600px] md:max-w-[600px]";
@@ -15,7 +19,23 @@ const Landline = () => {
           </p>
         </div>
         <div>
-          <div className="relative">
+          <div className="relative" onClick={onHover}>
+            <img
+              src={autobus}
+              alt=""
+              className="absolute -top-26 -left-10 autobus hidden xl:block opacity-0"
+            />
+            <img
+              src={kombi}
+              className="absolute -top-16 -left-15 kombi hidden xl:block opacity-0"
+              alt=""
+            />
+            <img
+              src={jeep}
+              alt=""
+              className="absolute -top-18 jeep hidden xl:block opacity-0"
+            />
+
             <img
               src={edgeShort}
               className={`absolute -top-1 ${projectImageStyle}`}
