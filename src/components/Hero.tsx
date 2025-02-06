@@ -5,7 +5,9 @@ import Logo from "./Logo";
 const Hero = () => {
   return (
     <div className="relative h-screen w-full flex justify-center items-center">
-      <Logo />
+      <div className="absolute top-10 left-10 z-50 ">
+        <Logo />
+      </div>
       <video className="bgVid" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>

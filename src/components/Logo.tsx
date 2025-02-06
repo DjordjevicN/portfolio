@@ -36,7 +36,7 @@ const Logo = () => {
   };
 
   return (
-    <div className="absolute top-10 left-10 z-50 cursor-pointer flex items-center gap-4">
+    <div className="cursor-pointer flex items-center gap-4">
       <div
         className="w-15 h-15 p-1 bg-[#FAF002] rounded"
         onClick={updateAvatar}
