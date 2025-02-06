@@ -13,7 +13,13 @@ const Landline = () => {
     <div className="relative bg-[#FAF002] w-full min-h-screen flex justify-center items-center">
       <div className="flex flex-col-reverse xl:flex-row xl:items-center gap-4 xl:justify-between xl:w-full max-w-[1280px] px-4">
         <div className="mt-9 xl:mt-0">
-          <h1 className="text-2xl font-semibold  glitchSlower">Landline</h1>
+          <a
+            target="_blank"
+            href="https://landline.com/"
+            className="text-2xl font-semibold glitchSlower"
+          >
+            Landline
+          </a>
           <p className="text-[#434343] mt-2">
             The best connection to your flight at an incredible price.
           </p>

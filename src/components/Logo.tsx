@@ -47,8 +47,7 @@ const Logo = () => {
           alt=""
         />
       </div>
-      <h1 className="font-bold text-center text-[#FAF002] glitchSlower">
-        {/* <h1 className="font-bold text-center text-[#FB35FF] glitchSlower"> */}
+      <h1 className="font-bold text-center text-[#FAF002]">
         Nikola Djordjevic
       </h1>
     </div>

@@ -18,9 +18,13 @@ const Streamflow = () => {
     <div className="relative bg-[#FAF002] w-full min-h-screen flex justify-center items-center">
       <div className="flex flex-col-reverse xl:flex-row xl:items-center gap-4 xl:justify-between xl:w-full max-w-[1280px] px-4">
         <div className="mt-9 xl:mt-0">
-          <h1 className="text-2xl font-semibold glitchSlower">
+          <a
+            href="https://streamflow.finance/"
+            target="_blank"
+            className="text-2xl font-semibold glitchSlower"
+          >
             Token Management Infrastructure
-          </h1>
+          </a>
           <p className="text-[#434343] mt-2">
             Simplifying token distribution with access to <br />
             customizable vesting schedules, airdrops, staking, and an SDK.{" "}

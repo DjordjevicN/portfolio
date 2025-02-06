@@ -11,6 +11,9 @@ body {
 .glitchSlower {
   animation: glitchIntro 6s infinite;
 }
+a:hover {
+  animation: glitchIntro 1s infinite;
+}
 @keyframes glitchIntro {
   0% {
     text-shadow: 0.02em 0.02em 0 #00ccff, 0em 0em 0 #e500a6;
