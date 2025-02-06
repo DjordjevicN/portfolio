@@ -11,7 +11,7 @@ import Projects from "../components/Projects";
 const HomePage = () => {
   return (
     <div>
-      {/* <Intro /> */}
+      <Intro />
       <Hero />
       <Projects />
     </div>

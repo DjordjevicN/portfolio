@@ -1,9 +1,11 @@
-import video from "../assets/4.mp4";
+import video from "../assets/3.mp4";
 import edge from "../assets/edge.svg";
+import Logo from "./Logo";
 
 const Hero = () => {
   return (
     <div className="relative h-screen w-full flex justify-center items-center">
+      <Logo />
       <video className="bgVid" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>

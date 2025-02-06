@@ -18,7 +18,7 @@ const SoftMetrix = () => {
             and user experience.
           </p>
         </div>
-        <div onClick={onHover}>
+        <div onClick={onHover} className="cursor-pointer">
           <div>
             <img className="euroAnimation opacity-0" src={euro} alt="" />
           </div>

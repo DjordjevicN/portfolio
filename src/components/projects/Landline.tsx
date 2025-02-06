@@ -19,7 +19,7 @@ const Landline = () => {
           </p>
         </div>
         <div>
-          <div className="relative" onClick={onHover}>
+          <div className="relative cursor-pointer" onClick={onHover}>
             <img
               src={autobus}
               alt=""
