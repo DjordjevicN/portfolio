@@ -39,6 +39,10 @@ const Intro = () => {
   };
 
   useEffect(() => {
+    if (sessionStorage.getItem("visited") === "true") {
+      setShowIntro(false);
+      return;
+    }
     scrollUp();
     let timerId = 0;
     if (index < introText.length - 1) {
@@ -51,6 +55,7 @@ const Intro = () => {
       enableScroll();
       scrollDown();
       setTimeout(() => {
+        sessionStorage.setItem("visited", "true");
         setShowIntro(false);
       }, 1000);
     }

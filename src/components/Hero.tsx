@@ -1,17 +1,19 @@
 import video from "../assets/3.mp4";
 import edge from "../assets/edge.svg";
 import Logo from "./Logo";
+import Navigation from "./Navigation";
 
 const Hero = () => {
   return (
     <div className="relative h-screen w-full flex justify-center items-center">
+      <Navigation />
       <div className="absolute top-10 left-10 z-50 ">
         <Logo />
       </div>
       <video className="bgVid" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
-      <h1 className="text-2xl md:text-4xl xl:text-8xl font-bold text-center text-[#FAF002] glitchSlower">
+      <h1 className="text-2xl md:text-4xl xl:text-6xl font-bold text-center text-[#FAF002] glitchSlower">
         I build Experiences, <br /> Solutions & Visions
       </h1>
       <img className="absolute bottom-0 w-full" src={edge} alt="" />
