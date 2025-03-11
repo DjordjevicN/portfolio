@@ -25,9 +25,6 @@ const Footer = () => {
             <a target="_blank" href="https://read.cv/nikola_djordjevic">
               Read Resume
             </a>
-            <a href="/Nikola Djordjevic CV.pdf" download="Nikola Djordjevic CV">
-              Download PDF Resume
-            </a>
           </div>
         </div>
       </div>
