@@ -29,11 +29,6 @@ const Footer = () => {
               Download PDF Resume
             </a>
           </div>
-          {/* <div className="flex flex-col gap-3 mt-20 sm:mt-0">
-            <h1 className="mb-8">Content</h1>
-            <a href="#about">About</a>
-            <a href="/">Home</a>
-          </div> */}
         </div>
       </div>
     </div>
