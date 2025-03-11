@@ -23,7 +23,10 @@ const Footer = () => {
               nikola.dj.87@gmail.com
             </a>
             <a target="_blank" href="https://read.cv/nikola_djordjevic">
-              Resume
+              Read Resume
+            </a>
+            <a href="/Nikola Djordjevic CV.pdf" download="Nikola Djordjevic CV">
+              Download PDF Resume
             </a>
           </div>
           {/* <div className="flex flex-col gap-3 mt-20 sm:mt-0">
