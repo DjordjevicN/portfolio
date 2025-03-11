@@ -25,9 +25,13 @@ const Streamflow = () => {
           >
             Token Management Infrastructure
           </a>
-          <p className="text-[#434343] mt-2">
-            Simplifying token distribution with access to <br />
-            customizable vesting schedules, airdrops, staking, and an SDK.{" "}
+          <p className="text-[#434343] mt-2 max-w-[550px] textFont">
+            Streamflow is a multichain digital asset management platform that
+            streamlines token operations with no-code tools. It offers automated
+            token vesting, airdrops, staking, liquidity locks, programmable
+            payments, and token minting. Trusted by over 5,000 projects,
+            Streamflow enables seamless fund distribution, payroll automation,
+            and ecosystem incentives across Solana, Aptos, and Sui.
           </p>
         </div>
         <div>

@@ -20,8 +20,12 @@ const Landline = () => {
           >
             Landline
           </a>
-          <p className="text-[#434343] mt-2">
-            The best connection to your flight at an incredible price.
+          <p className="text-[#434343] mt-2 max-w-[550px] textFont">
+            Landline is a transportation platform that provides seamless airport
+            transfers with its own fleet of vehicles. Users can easily book
+            transport from their home to the airport, while the company
+            efficiently manages drivers, tracks vehicle locations in real-time,
+            and organizes shifts for optimal operations.
           </p>
         </div>
         <div>

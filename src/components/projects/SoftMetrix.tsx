@@ -16,7 +16,7 @@ const SoftMetrix = () => {
           >
             E-commerce Organo
           </a>
-          <p className="text-[#02A3DC] mt-2">
+          <p className="text-[#02A3DC] mt-2 textFont">
             Developed Organo, a coffee e-commerce platform <br />
             optimized for seamless shopping, performance, <br />
             and user experience.

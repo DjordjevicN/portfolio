@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <div className="flex-col sm:flex-row sm:flex  gap-16">
           <div className="flex flex-col gap-3">
-            <h1 className="mb-8">Main</h1>
+            <h1 className="mb-8">Links</h1>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/nikola-djordjevic-503066193/"
@@ -26,11 +26,11 @@ const Footer = () => {
               Resume
             </a>
           </div>
-          <div className="flex flex-col gap-3 mt-20 sm:mt-0">
+          {/* <div className="flex flex-col gap-3 mt-20 sm:mt-0">
             <h1 className="mb-8">Content</h1>
             <a href="#about">About</a>
             <a href="/">Home</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
