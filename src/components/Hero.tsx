@@ -1,12 +1,10 @@
 import video from "../assets/3.mp4";
 import edge from "../assets/edge.svg";
 import Logo from "./Logo";
-import Navigation from "./Navigation";
 
 const Hero = () => {
   return (
     <div className="relative h-screen w-full flex justify-center items-center">
-      {/* <Navigation /> */}
       <div className="absolute top-10 left-10 z-50 ">
         <Logo />
       </div>
