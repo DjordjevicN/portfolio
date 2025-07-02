@@ -15,7 +15,7 @@ const Hero = () => {
         <h1 className="text-2xl md:text-4xl xl:text-6xl font-bold text-center text-[#FAF002] glitchSlower">
           I build Experiences, <br /> Solutions & Visions
         </h1>
-        <p className="mt-4 max-w-[700px] textFont">
+        <p className="mt-4 max-w-[700px] textFont p-4">
           I’m a self-taught developer with a passion for problem-solving. I
           often use code as a tool to tackle challenges and build solutions that
           make life easier. I focus on creating efficient, scalable, and
