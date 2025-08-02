@@ -16,10 +16,10 @@ const Hero = () => {
           I build Experiences, <br /> Solutions & Visions
         </h1>
         <p className="mt-4 max-w-[700px] textFont p-4">
-          I’m a self-taught developer with a passion for problem-solving. I
-          often use code as a tool to tackle challenges and build solutions that
-          make life easier. I focus on creating efficient, scalable, and
-          user-friendly applications.
+          I’m a developer with a passion for problem-solving. I often use code
+          as a tool to tackle challenges and build solutions that make life
+          easier. I focus on creating efficient, scalable, and user-friendly
+          applications.
         </p>
       </div>
       <img className="absolute bottom-0 w-full" src={edge} alt="" />

@@ -22,9 +22,9 @@ const Footer = () => {
             <a target="_blank" href="mailto:nikola.dj.87@gmail.com">
               nikola.dj.87@gmail.com
             </a>
-            <a target="_blank" href="https://read.cv/nikola_djordjevic">
+            {/* <a target="_blank" href="https://read.cv/nikola_djordjevic">
               Read Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
