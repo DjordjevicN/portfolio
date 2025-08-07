@@ -27,20 +27,20 @@ const AboutProject = ({
       </a>
       <div className="flex gap-3 mt-2 bg-black p-1 justify-between items-center my-2">
         <button
-          className={`cursor-pointer  px-4 py-1  textFont  transition-colors duration-300 w-full text-xs ${
+          className={`cursor-pointer  px-4 py-4  textFont  transition-colors duration-300 w-full text-xs ${
             descriptionToggle
               ? "bg-[#FAF002] text-black"
-              : "bg-gray-900 text-white"
+              : "bg-black text-white"
           }`}
           onClick={() => setDescriptionToggle(true)}
         >
           <p>{`About ${project.companyName}`}</p>
         </button>
         <button
-          className={`cursor-pointer px-4 py-1 textFont transition-colors duration-300 w-full text-xs ${
+          className={`cursor-pointer px-4 py-4 textFont transition-colors duration-300 w-full text-xs ${
             !descriptionToggle
               ? "bg-[#FAF002] text-black"
-              : "bg-gray-900 text-white"
+              : "bg-black text-white"
           }`}
           onClick={() => setDescriptionToggle(false)}
         >
