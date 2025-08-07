@@ -7,7 +7,7 @@ body {
 }
 .textFont {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+
   font-style: normal;
   letter-spacing: 1px;
 }
@@ -78,9 +78,11 @@ a:hover {
   height: 100vh;
   top: 0;
   left: 0;
-  -o-object-fit: cover;
   object-fit: cover;
   z-index: -1;
+  scale: 1.1;
+  filter: blur(10px);
+  background-color: black; /* Helps remove white halo */
 }
 .bgVid::after {
   content: "";

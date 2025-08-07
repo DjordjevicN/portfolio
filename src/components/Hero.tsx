@@ -11,17 +11,16 @@ const Hero = () => {
       <video className="bgVid" autoPlay loop muted playsInline>
         <source src={video} type="video/mp4" />
       </video>
-      <div className="flex flex-col items-center justify-center text-white z-10">
-        <h1 className="text-2xl md:text-4xl xl:text-6xl font-bold text-center text-[#FAF002] glitchSlower">
-          I build Experiences, <br /> Solutions & Visions
+      <div className="text-white z-10">
+        <h1 className="text-xl md:text-4xl xl:text-5xl font-bold  text-[#FAF002] glitchSlower">
+          Hey — I’m Nikola 👋
         </h1>
-        <p className="mt-4 max-w-[700px] textFont p-4">
-          I’m a developer with a passion for problem-solving. I often use code
-          as a tool to tackle challenges and build solutions that make life
-          easier. I focus on creating efficient, scalable, and user-friendly
-          applications.
+        <p className="mt-4 textFont font-bold">
+          FRONT-END BY TRADE, FULL-STACK BY GRIND. <br />
+          CRAFTING SCALABLE UIs WITH MODERN TECH.
         </p>
       </div>
+
       <img className="absolute bottom-0 w-full" src={edge} alt="" />
     </div>
   );
