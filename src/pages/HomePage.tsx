@@ -7,14 +7,15 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
-import Projects from "../components/Projects";
+import ProjectDisplay from "../components/ProjectDisplay";
 
 const HomePage = () => {
   return (
     <div>
       <Intro />
       <Hero />
-      <Projects />
+      <ProjectDisplay />
+      {/* <Projects /> */}
       <Footer />
     </div>
   );
