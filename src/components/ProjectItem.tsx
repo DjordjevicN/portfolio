@@ -13,7 +13,7 @@ const ProjectItem = ({
 }) => {
   return (
     <div
-      className={`relative  w-full min-h-screen flex justify-center items-center ${
+      className={`relative  w-full min-h-screen flex justify-center items-center py-30 ${
         dark ? "bg-[#FAF002]" : "bg-black"
       }`}
     >

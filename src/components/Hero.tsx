@@ -12,10 +12,10 @@ const Hero = () => {
         <source src={video} type="video/mp4" />
       </video>
       <div className="text-white z-10">
-        <h1 className="text-xl md:text-4xl xl:text-5xl font-bold  text-[#FAF002] glitchSlower">
+        <h1 className="text-xl xl:text-5xl font-bold  text-[#FAF002] glitchSlower text-center">
           Hey — I’m Nikola 👋
         </h1>
-        <p className="mt-4 textFont font-bold">
+        <p className="mt-4 textFont  text-center xl:text-start text-[10px] xl:font-bold xl:text-[16px]">
           FRONT-END BY TRADE, FULL-STACK BY GRIND. <br />
           CRAFTING SCALABLE UIs WITH MODERN TECH.
         </p>
