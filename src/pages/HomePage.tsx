@@ -15,7 +15,6 @@ const HomePage = () => {
       <Intro />
       <Hero />
       <ProjectDisplay />
-      {/* <Projects /> */}
       <Footer />
     </div>
   );
